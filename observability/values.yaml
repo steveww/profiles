@@ -1,6 +1,7 @@
-grafana:
-  enabled: true
+loki-stack:
+  grafana:
+    enabled: true
 
-prometheus:
-  enabled: true
+  prometheus:
+    enabled: true
 
