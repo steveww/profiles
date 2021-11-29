@@ -1,18 +1,18 @@
 apiVersion: v1
 entries:
   observability:
-    - apiVersion: v2
-      created: "2021-11-26T16:58:48.495398Z"
-      dependencies:
-        - name: loki-stack
-          repository: https://grafana.github.io/helm-charts
-          version: 2.5.0
-      description: Prometheus, Grafana and Loki
-      digest: d8a3d30ef9c568f0d2076115da275bd16de5f531118d58a4a66585018f4f3439
-      name: observability
-      urls:
-        - https://steveww.org/observability-1.0.0.tgz
-      version: 1.0.0
-      annotations:
-        weave.works/profile: observability
-generated: "2021-11-26T16:58:48.483012Z"
+  - annotations:
+      weave.works/profile: o11y
+    apiVersion: v2
+    created: "2021-11-29T10:38:39.730986Z"
+    dependencies:
+    - name: loki-stack
+      repository: https://grafana.github.io/helm-charts
+      version: 2.5.0
+    description: Prometheus, Grafana and Loki
+    digest: 1fea423864e75f460f8a75c4f5ba732fb09b76b425b7fcc4734d7487f6e9763b
+    name: observability
+    urls:
+    - https://steveww.github.io/profiles/observability-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-11-29T10:38:39.718611Z"
