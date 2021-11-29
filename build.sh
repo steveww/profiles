@@ -1,6 +1,6 @@
 #!/bin/sh
 
-REPO_URL="https://steveww.org"
+REPO_URL="https://steveww.github.io/profiles"
 
 set -e
 
@@ -18,7 +18,6 @@ echo "creating repo"
 mkdir repo
 mv *.tgz repo
 helm repo index repo --url=$REPO_URL
-echo "Adding annotation"
-yq e -i '.entries.observability.[].annotations."weave.works/profile" = "observability"' repo/index.yaml
+# TODO - add, commit and push to gh-pages branch
 
 ls -l repo
