@@ -14,6 +14,7 @@ echo "Updating dependencies"
 helm dependency update observability
 echo "Packaging"
 helm package observability
+helm package podinfo
 echo "creating repo"
 mkdir repo
 mv *.tgz repo

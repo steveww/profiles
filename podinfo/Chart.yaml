@@ -1,0 +1,15 @@
+apiVersion: v1
+version: 6.0.3
+appVersion: 6.0.3
+name: podinfo
+engine: gotpl
+description: Podinfo Helm chart for Kubernetes
+annotations:
+  weave.works/profile: podinfo
+home: https://github.com/stefanprodan/podinfo
+maintainers:
+- email: stefanprodan@users.noreply.github.com
+  name: stefanprodan
+sources:
+- https://github.com/stefanprodan/podinfo
+kubeVersion: ">=1.19.0-0"
