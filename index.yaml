@@ -4,15 +4,34 @@ entries:
   - annotations:
       weave.works/profile: o11y
     apiVersion: v2
-    created: "2021-11-29T10:38:39.730986Z"
+    created: "2021-11-30T11:50:08.069398Z"
     dependencies:
     - name: loki-stack
       repository: https://grafana.github.io/helm-charts
       version: 2.5.0
     description: Prometheus, Grafana and Loki
-    digest: 1fea423864e75f460f8a75c4f5ba732fb09b76b425b7fcc4734d7487f6e9763b
+    digest: 1c447bb565360cd807dfa3d867bcf4e30855b2d357fa9537c80d95c9a12b5e61
     name: observability
     urls:
     - https://steveww.github.io/profiles/observability-1.0.0.tgz
     version: 1.0.0
-generated: "2021-11-29T10:38:39.718611Z"
+  podinfo:
+  - annotations:
+      weave.works/profile: podinfo
+    apiVersion: v1
+    appVersion: 6.0.3
+    created: "2021-11-30T11:50:08.070761Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 854d655baf923066bafef650e6b8be3c46eaa1f6c454bea9f291395f418f3aaf
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://steveww.github.io/profiles/podinfo-6.0.3.tgz
+    version: 6.0.3
+generated: "2021-11-30T11:50:08.05849Z"
